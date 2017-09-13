@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700,900');
+$titleclr: #1b1b1b;
+$descclr: #3b3b3b;
+
+body{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+}
+
+*{
+    box-sizing: border-box;
+}
+.container {
+  max-width: 1920px;
+  height: 100%;
+ margin: 0 auto;
+ padding-left: 100px;
+ padding-right: 100px;
+}
+
+    .jumbo {
+  width: 100%;
+  position: relative;
+  background: #004769 url('../img/bg-image.jpg');
+  background-size: cover;
+  color:  #ededed;
+  min-height: 100vh;
+
+&__ul{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+text-transform: uppercase;
+list-style: none;
+font-weight: 700;
+padding: 50px 0 0 0;
+margin: 0;
+}
+&__list{
+    font-size: 24px;
+
+&--logo{
+    font-size: 30px;
+}
+}
+  &__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 150px 0 0 0;
+}
+&__title{
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0;
+}
+&__desc{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+&__scroll {
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  bottom: 40px;
+  left: 48%;
+  margin: 0 auto;
+}
+}
+.header{
+  width: 100%;
+  color:  #ffffff;
+ box-shadow: 0px 4px 24px 1px rgba(179,172,179,1);
+  &__ul{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+text-transform: uppercase;
+list-style: none;
+color: $descclr;
+margin: 0 -60px;
+}
+&__list{
+    margin: 15px auto;
+    font-size: 18px;
+
+&--logo{
+    margin: 10px 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: $titleclr;
+}
+}
+}
+
+///////////////////////////ABOUT US/////////////////////////
+
+.aboutus {
+    width: 100%;
+
+&__title{
+color: $titleclr;
+font-size: 30px;
+font-weight: 700;
+text-align: center;
+text-transform: uppercase;
+}
+&__desc{
+color: $descclr;
+font-size: 18px;
+text-align: center;
+}
+&__icon{
+text-align: center;
+}
+&__text{
+   color: $descclr;
+font-size: 14px;
+}
+}

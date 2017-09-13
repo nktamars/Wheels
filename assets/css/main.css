@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,600,700,900");
+body {
+  font-family: 'Raleway',sans-serif;
+  font-weight: 600; }
+
+* {
+  box-sizing: border-box; }
+
+.container {
+  max-width: 1920px;
+  height: 100%;
+  margin: 0 auto;
+  padding-left: 100px;
+  padding-right: 100px; }
+
+.jumbo {
+  width: 100%;
+  position: relative;
+  background: #004769 url("../img/bg-image.jpg");
+  background-size: cover;
+  color: #ededed;
+  min-height: 100vh; }
+  .jumbo__ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: uppercase;
+    list-style: none;
+    font-weight: 700;
+    padding: 50px 0 0 0;
+    margin: 0; }
+  .jumbo__list {
+    font-size: 24px; }
+    .jumbo__list--logo {
+      font-size: 30px; }
+  .jumbo__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 150px 0 0 0; }
+  .jumbo__title {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0; }
+  .jumbo__desc {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0; }
+  .jumbo__scroll {
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 40px;
+    left: 48%;
+    margin: 0 auto; }
+
+.header {
+  width: 100%;
+  color: #ffffff;
+  box-shadow: 0px 4px 24px 1px #b3acb3; }
+  .header__ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: uppercase;
+    list-style: none;
+    color: #3b3b3b;
+    margin: 0 -60px; }
+  .header__list {
+    margin: 15px auto;
+    font-size: 18px; }
+    .header__list--logo {
+      margin: 10px 0;
+      font-size: 30px;
+      font-weight: 700;
+      color: #1b1b1b; }
+
+.aboutus {
+  width: 100%; }
+  .aboutus__title {
+    color: #1b1b1b;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase; }
+  .aboutus__desc {
+    color: #3b3b3b;
+    font-size: 18px;
+    text-align: center; }
+  .aboutus__icon {
+    text-align: centere; }
+  .aboutus__text {
+    color: #3b3b3b;
+    font-size: 14px; }
+
+/*# sourceMappingURL=main.css.map */
