@@ -4,49 +4,251 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">	
   <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="shortcut icon" href="assets/img/favicon.ico.png" type="image/png">
+  <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css"/>
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
   <link rel="stylesheet" href="assets/icon/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
   <title>WHEELS | Best fixed gear bikes here.</title>
 </head>
 <body>
-<section class="jumbo">
+
+
+  
+<section id="wheels" class="jumbo">
     <div class="container">
-        <ul class="jumbo__ul">
+<!---->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#aboutus">About Us</a>
+  <a href="#products">Products</a>
+  <a href="#services">Services</a>
+  <a href="#ourteam">Our Team</a>
+  <a href="#blog">Blog</a>
+  <a href="#contact">Contact</a>
+</div>
+<!---->
+
+
+        <ul id="main" class="jumbo__ul">
             <li class="jumbo__list--logo">Wheels</li>
-            <li class="jumbo__list">Menu</li>
+            <li class="jumbo__list" style="cursor:pointer" onclick="openNav()">Menu &#9776;</li>
         </ul>
+        <!---->
   <div class="jumbo__text">
     <h2 class="jumbo__title">Welcome to wheels</h2>
-    <p class="jumbo__desc">Your free psd template,</p>
-    <p class="jumbo__desc"> perfect for your next big idea</p>
+    <p class="jumbo__desc">Best fixed gear bikes,</p>
+    <p class="jumbo__desc"> always perfect!</p>
     </div>
-    <a href="#"><img class="jumbo__scroll" src="assets/img/scroll.svg" alt=""></a>
+    <a href="#header"><img class="jumbo__scroll" src="assets/img/scroll.svg" alt=""></a>
     </div>
     </section>
-    <header class="header">
+    <header id="header" class="header">
         <div class="container">
         <nav>
             <ul class="header__ul">
-                <li class="header__list--logo">Wheels</li>
-                <li class="header__list">About Us</li>
-                <li class="header__list">Products</li>
-                <li class="header__list">Services</li>
-                <li class="header__list">Our Team</li>
-                <li class="header__list">Blog</li>
-                <li class="header__list">Contact</li>
+                <li class="header__list--logo"><a class="header__link" href="#wheels">Wheels</a></li>
+                <li class="header__list"><a class="header__link" href="#aboutus">About Us</a></li>
+                <li class="header__list"><a class="header__link" href="#products">Products</a></li>
+                <li class="header__list"><a class="header__link" href="#services">Services</a></li>
+                <li class="header__list"><a class="header__link" href="#ourteam">Our Team</a></li>
+                <li class="header__list"><a class="header__link" href="#blog">Blog</a></li>
+                <li class="header__list"><a class="header__link" href="#contact">Contact</a></li>
             </ul>
         </nav>
         </div>
     </header>
-<section class="aboutus">   
+<section id="aboutus" class="aboutus">   
    <div class="container">
        <h2 class="aboutus__title">About Us</h2>
        <h3 class="aboutus__desc">Let’s talk about what makes your company great.</h3>
-       <p class="fa fa-bicycle fa-4x aboutus__icon"></p>
+       <div class="aboutus__icon">
+       <span class="fa fa-bicycle fa-3x"></span>
+       </div>
        <p class="aboutus__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet odio molestie, rutrum lacus et, suscipit sem. Fusce eu tristique neque. Nullam in eu<br>ismod magna. Vestibulum fermentum a dui non vulputate. Morbi hendrerit rhoncus velit at pellentesque. Interdum et malesuada fames ac ante ipsum primis in<br> faucibus. Suspendisse quis sapien neque. Nunc pulvinar vel velit eget porttitor. Sed at sapien luctus nulla lobortis ullamcorper. Proin sit amet nulla quis libero<br> dictum tempor eget in dui. Proin posuere eleifend vehicula.</p>
    </div>
 </section>
+<section id="products" class="products">
+    <div class="container">
+    <h2 class="products__title">Some Statistics</h2>
+    <p class="products__desc">Showing what your company already acomplished is always a good selling point.</p>
+<div class="statistic">
+    <div class="statistic__sold">
+        <h3 class="statistic__title">409</h3>
+        <p class="statistic__desc">BIKES SOLD</p>
+    </div>
+    <div class="statistic__sold">
+        <h3 class="statistic__title">2012</h3>
+        <p class="statistic__desc">year the<br> company started</p>
+    </div>
+    <div class="statistic__sold">
+        <h3 class="statistic__title">409</h3>
+        <p class="statistic__desc">unsatisfied<br> customers</p>
+    </div>
+</div>
+</div>
+</section>
+<section id="services" class="services">
+    <div class="container">
+    <h2 class="services__title">Featured Products</h2>
+    <p class="services__desc">Your chance to shine</p>
+    <ul class="services__ul">
+        <li class="services__list">
+        <a href="orangez.html" class="services__link">
+           <img src="assets/img/orange1.jpg" width="420"alt="">
+            <h3 class="list__title">Orangez</h3>
+            <p class="list__price">$399</p>
+            </a>
+             <a href="orangez.html" class="list__link">learn more</a>
+        
+        </li>
+            <li class="services__list">
+        <a href="green.html" class="services__link">
+           <img src="assets/img/green1.jpg" width="420"alt="">
+            <h3 class="list__title">Green Devil</h3>
+            <p class="list__price">$399</p>
+           </a>
+            <a href="green.html" class="list__link">learn more</a>
+        </li>
+             <li class="services__list">
+        <a href="blue.html" class="services__link">
+           <img src="assets/img/blue1.jpg" width="420"alt="">
+            <h3 class="list__title">Blue Lagoon</h3>
+            <p class="list__price">$399</p>
+            </a>
+             <a href="blue.html" class="list__link">learn more</a>
+        </li>
+    </ul>
+    <ul class="services__ul">
+        <li class="services__list">
+        <a href="pink.html" class="services__link">
+           <img src="assets/img/pink1(2).jpg" width="420"alt="">
+            <h3 class="list__title">Pink Lady</h3>
+            <p class="list__price">$399</p>
+            </a>
+             <a href="pink.html" class="list__link">learn more</a>
+        
+        </li>
+            <li class="services__list">
+        <a href="blood.html" class="services__link">
+           <img src="assets/img/red1.jpg" width="420"alt="">
+            <h3 class="list__title">Blood Rain</h3>
+            <p class="list__price">$399</p>
+           </a>
+             <a href="blood.html" class="list__link">learn more</a>
+        </li>
+             <li class="services__list">
+        <a href="grey.html" class="services__link">
+           <img src="assets/img/grey1.jpg" width="420"alt="">
+            <h3 class="list__title">The Mist</h3>
+            <p class="list__price">$399</p>
+            </a>
+              <a href="grey.html" class="list__link">learn more</a>
+        </li>
+    </ul>
+    </div>
+</section>
+<section id="ourteam" class="ourteam">
+<div class="container">
+    <h2 class="ourteam__title">Meet The Team</h2>
+    <p class="ourteam__desc">People who make the magic happen</p>
+    <ul class="ourteam__ul">
+        <li class="ourteam__list">
+            <img src="assets/img/ian.png" alt="">
+            <h3 class="list__title">Ian</h3>
+            <span class="list__job">Founder, CEO</span>
+        </li>
+         <li class="ourteam__list">
+            <img src="assets/img/sarah.png" alt="">
+            <h3 class="list__title">Sarah</h3>
+            <span class="list__job">Designer</span>
+        </li>
+         <li class="ourteam__list">
+            <img src="assets/img/juan.png" alt="">
+            <h3 class="list__title">Juan</h3>
+            <span class="list__job">Office Wizard</span>
+        </li>
+    </ul>
+    </div>
+</section>
+<section id="blog" class="blog">
+<div class="container">
+    <h2 class="blog__title">#social showcase</h2>
+    <p class="blog__desc">Show your customers why your Instagram account is the one they should follow</p>
 
+<div class="blog__sl">
+<div class="sl__slide">
+  <img src="assets/img/fg1.jpg" alt="" class="sl__img">
+</div>
+<div class="sl__slide">
+  <img src="assets/img/fg2.jpg" alt="" class="sl__img">
+</div>
+<div class="sl__slide">
+  <img src="assets/img/fg3.jpg" alt="" class="sl__img">
+</div>
+<div class="sl__slide">
+  <img src="assets/img/fg4.jpg" alt="" class="sl__img">
+</div>
+<div class="sl__slide">
+  <img src="assets/img/fg5.jpg" alt="" class="sl__img">
+</div>
+<div class="sl__slide">
+  <img src="assets/img/fg6.jpg" alt="" class="sl__img">
+</div>
+<div class="sl__slide">
+  <img src="assets/img/fg7.jpg" alt="" class="sl__img">
+</div>
+<div class="sl__slide">
+  <img src="assets/img/fg8.jpg" alt="" class="sl__img">
+</div>
+</div>
+<p class="blog__follow">follow <a href="https://www.instagram.com/nikitaghetto/" class="blog__follow">@nikitaghetto</a> on instagram</p>
+</div>
+</section>
+<footer id="contact" class="footer">
+    <div class="container">
+        <h2 class="footer__title">Wheelz</h2>
+        <div class="footer__links">
+            <div class="links__container">
+            <ul class="links">
+                <li class="links__item">quick links</li>
+                <li><a href="#aboutus" class="links__links">About us</a></li>
+                <li><a href="#products" class="links__links">products</a></li>
+                <li><a href="#services" class="links__links">services</a></li>
+                <li><a href="#ourteam" class="links__links">our team</a></li>
+                <li><a href="#blog" class="links__links">blog</a></li>
+                <li><a href="#contact" class="links__links">contact</a></li>
+            </ul>
+            <ul class="links">
+                <li class="links__item">quick links 2</li>
+                <li><a href="#" class="links__links">faq</a></li>
+                <li><a href="#" class="links__links">terms & Conditions</a></li>
+                <li><a href="#" class="links__links">something else</a></li>
+                <li><a href="#" class="links__links">anything</a></li>
+                <li><a href="#" class="links__links">your ideas</a></li>
+                <li><a href="#" class="links__links">right here</a></li>
+            </ul>
+            </div>
+            <div class="links__container">
+              <ul class="links">
+                <li class="links__item">let’s get social!</li>
+                <div class="links__flex">
+                <li><a href="https://www.facebook.com/nikita.fetisov.94" class="links__links"><img src="assets/img/facebook.svg"></a></li>
+                <li><a href="https://www.linkedin.com/in/nikita-fitisov-210a36144/" class="links__links"><img src="assets/img/linkedin.svg"></a></li>
+                <li><a href="https://www.instagram.com/nikitaghetto/" class="links__links"><img src="assets/img/instagram.svg"></a></li>
+                <li><a href="https://twitter.com/?lang=ru" class="links__links"><img src="assets/img/twitter.svg"></a></li>
+                </div>
+            </ul>
+              <div class="map"></div> 
+              </div>
+        </div>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+<script src="assets/js/main.js"></script>
+ <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCe34Ve51JIkJWRbCw3qFoEumiYIIoJGco&callback=initMap">
+  </script>
 </body>
 </html>
